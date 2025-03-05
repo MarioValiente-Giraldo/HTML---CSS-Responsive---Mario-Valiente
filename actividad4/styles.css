@@ -1,0 +1,8 @@
+@media(max-width:768px){
+  .responsive-img{
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+}
