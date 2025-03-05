@@ -1,4 +1,5 @@
-div.box{
-    background-color: rgb(119, 119, 219);
-    width: 600px;
+@media (max-width: 600px) {
+  .box{
+    background-color: rgb(88, 150, 220);
+  }
 }
