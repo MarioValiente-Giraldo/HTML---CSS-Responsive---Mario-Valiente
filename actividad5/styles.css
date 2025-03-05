@@ -1,16 +1,19 @@
  
+ul{
+  display: flex;
+list-style: none;}
+
+
+li{
+  text-decoration: none !important;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px){
   ul{
-    display: flex;
-    list-style: none;
-    align-items: center;
+      display: grid !important;
   }
-  @media (max-width: 600px) {
-  ul {
-  flex-direction : column;
-  
-   
-   }
-  }
+}
 
 
 
